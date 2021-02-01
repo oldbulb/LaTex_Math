@@ -193,7 +193,7 @@ $$
 $$
 
 $$
-\nabla \cdot \mathbf{B} = 0 \mathrm{Gauss\ law\ for\ magnetism}
+\nabla \cdot \mathbf{B} = 0
 $$
 
 $$
