@@ -66,7 +66,7 @@
 | --------------- | ----------- | ---- | --------------- | ------------- | ---- | --------------- | ------------- | ---- | --------------- | -------------- |
 | `\sum`          | $$\sum$$    |      | `\bigcup`       | $$\bigcup$$   |      | `\bigvee`       | $$\bigvee$$   |      | `\bigoplus`     | $$\bigoplus$$  |
 | `\prod`         | $$\prod$$   |      | `\bigcap`       | $$\bigcap$$   |      | `\bigwedge`     | $$\bigwedge$$ |      | `\bigotimes`    | $$\bigotimes$$ |
-| `\coprod`       | $$\coprod$$ |      | `\bigsqcup`     | $$\bigsqcup$$ |      | `\oiint`        | $$\oiint$$    |      | `\bigodot`      | $$\bigodot$$   |
+| `\coprod`       | $$\coprod$$ |      | `\bigsqcup`     | $$\bigsqcup$$ |      | `\iiint`        | $$\iiint$$    |      | `\bigodot`      | $$\bigodot$$   |
 | `\int`          | $$\int$$    |      | `\oint`         | $$\oint$$     |      | `\iint`         | $$\iint$$     |      | `\biguplus`     | $$\biguplus$$  |
 
 
@@ -76,7 +76,7 @@
 | `LaTeX`**命令** | **符号**        |      | `LaTeX`**命令** | **符号**        |      | `LaTeX`**命令** | **符号**         |      | `LaTeX`**命令** | **符号**         |
 | --------------- | --------------- | ---- | --------------- | --------------- | ---- | --------------- | ---------------- | ---- | --------------- | ---------------- |
 | `(`             | $$($$           |      | `)`             | $$)$$           |      | `\uparrow`      | $$\uparrow$$     |      | `\Uparrow`      | $$\Uparrow$$     |
-| `[, \lbrack`    | $$[, \lbrack$$  |      | `\], \rbrack`     | $$], \rbrack$$   |      | `\downarrow`    | $$\downarrow$$   |      | `\Downarrow`    | $$\Downarrow$$   |
+| `\[, \lbrack`    | $$\[, \lbrack$$ |      | `\], \rbrack`     | $$\], \rbrack$$   |      | `\downarrow`    | $$\downarrow$$   |      | `\Downarrow`    | $$\Downarrow$$   |
 | `\{, \lbrace`   | $$\{, \lbrace$$ |      | `\}, \rbrace`   | $$\}, \rbrace$$ |      | `\updownarrow`  | $$\updownarrow$$ |      | `\Updownarrow`  | $$\Updownarrow$$ |
 | `\langle`       | $$\langle$$     |      | `\rangle`       | $$\rangle$$     |      | `\|, \vert`     | $$\|, \vert$$    |      | `\\|, \Vert`    | $$\\|, \Vert$$   |
 | `\lfloor`       | $$\lfloor$$     |      | `\rfloor`       | $$\rfloor$$     |      | `\lceil`        | $$\lceil$$       |      | `\rceil`        | $$\rceil$$       |
@@ -190,11 +190,17 @@
 
 $$
 \nabla \cdot \mathbf{E} = \cfrac{\rho}{\varepsilon_0} 
-
+$$
+\\
+$$
 \nabla \cdot \mathbf{B} = 0 \mathrm{Gauss\ law\ for\ magnetism}
-	\\
+$$
+\\
+$$
 \nabla \times \mathbf{E} = - \cfrac{\partial\mathbf{B}}{\partial t} 
-	\\
+$$
+\\
+$$
 \nabla \times \mathbf{B}= 
 	\mu_0 \left(\mathbf{J} + \varepsilon_0 \ \cfrac{\partial\mathbf{E}}{\partial t}\right)
 $$
@@ -230,14 +236,20 @@ $$
 $$
 \displaystyle
 \oiint_{\partial\Omega}\mathbf{E} \cdot \mathrm{d} \mathbf{B} = \cfrac{1}{\varepsilon_0} \iiint_\Omega\rho\mathrm{d}V
+$$
 \\
+$$
 \displaystyle
 \oiint_{\partial\Omega}\mathbf{B} \cdot \mathrm{d} \mathbf{S} = 0
+$$
 \\
+$$
 \displaystyle
 {\bigcirc\kern{-11.7pt}\int}_{\partial\Sigma}\mathbf{E} \cdot \mathrm{d} \boldsymbol{\ell} = 
 	-\cfrac{\mathrm{d}}{\mathrm{d}t} \iint_\Sigma \mathbf{B} \cdot \mathrm{d} \mathbf{S}
+$$
 \\
+$$
 \displaystyle
 {\bigcirc\kern{-11.7pt}\int}_{\partial\Sigma}\mathbf{B} \cdot \mathrm{d} \boldsymbol{\ell} = 
 \mu_0 \left(\iint_\Sigma \mathbf{J} \cdot \mathrm{d} \mathbf{S} + \varepsilon_0 \ \cfrac{\rm d}{\mathrm{d}t}\iint_\Sigma \mathbf{E} \cdot \mathrm{d} \mathbf{S}\right)
