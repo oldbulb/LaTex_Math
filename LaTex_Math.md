@@ -31,7 +31,7 @@
 
 | 操作             | `LaTeX`**命令**                  | **符号**                         |
 | ---------------- | -------------------------------- | -------------------------------- |
-| **加粗**         | `\bold B`, `\boldsymbol{\delta}` | $$\bold B, \boldsymbol{\delta}$$ |
+| **加粗**         | `\boldsymbol{\delta}`            | $$\boldsymbol{\delta}$$ |
 | **空心**         | `\mathbb{M}`                     | $$\mathbb{M}$$                   |
 | **上标干扰**     | `\jmath, \imath`                 | $$\jmath, \imath$$               |
 | **正体，罗马体** | `\mathrm{d}`                     | $$\mathrm{d}$$                   |
@@ -76,7 +76,7 @@
 | `LaTeX`**命令** | **符号**        |      | `LaTeX`**命令** | **符号**        |      | `LaTeX`**命令** | **符号**         |      | `LaTeX`**命令** | **符号**         |
 | --------------- | --------------- | ---- | --------------- | --------------- | ---- | --------------- | ---------------- | ---- | --------------- | ---------------- |
 | `(`             | $$($$           |      | `)`             | $$)$$           |      | `\uparrow`      | $$\uparrow$$     |      | `\Uparrow`      | $$\Uparrow$$     |
-| `[, \lbrack`    | $$[, \lbrack$$  |      | `], rbrack`     | $$], rbrack$$   |      | `\downarrow`    | $$\downarrow$$   |      | `\Downarrow`    | $$\Downarrow$$   |
+| `[, \lbrack`    | $$[, \lbrack$$  |      | `\], \rbrack`     | $$], \rbrack$$   |      | `\downarrow`    | $$\downarrow$$   |      | `\Downarrow`    | $$\Downarrow$$   |
 | `\{, \lbrace`   | $$\{, \lbrace$$ |      | `\}, \rbrace`   | $$\}, \rbrace$$ |      | `\updownarrow`  | $$\updownarrow$$ |      | `\Updownarrow`  | $$\Updownarrow$$ |
 | `\langle`       | $$\langle$$     |      | `\rangle`       | $$\rangle$$     |      | `\|, \vert`     | $$\|, \vert$$    |      | `\\|, \Vert`    | $$\\|, \Vert$$   |
 | `\lfloor`       | $$\lfloor$$     |      | `\rfloor`       | $$\rfloor$$     |      | `\lceil`        | $$\lceil$$       |      | `\rceil`        | $$\rceil$$       |
@@ -190,17 +190,13 @@
 
 $$
 \nabla \cdot \mathbf{E} = \cfrac{\rho}{\varepsilon_0} 
-$$
-	\\
-	\nabla \cdot \mathbf{B} &= 0 && \mathrm{Gauss\ law\ for\ magnetism}
-	\\
-	\nabla \times \mathbf{E} &= - \cfrac{\partial\mathbf{B}}{\partial t} 
-	&& \mathrm{Faraday\ law\ of\ induction}
-	\\
-	\nabla \times \mathbf{B}&= 
-	\mu_0 \left(\mathbf{J} + \varepsilon_0 \ \cfrac{\partial\mathbf{E}}{\partial t}\right)
-	&& \mathrm{Amp\grave{e}re\ circuital\ law}
 
+\nabla \cdot \mathbf{B} = 0 \mathrm{Gauss\ law\ for\ magnetism}
+	\\
+\nabla \times \mathbf{E} = - \cfrac{\partial\mathbf{B}}{\partial t} 
+	\\
+\nabla \times \mathbf{B}= 
+	\mu_0 \left(\mathbf{J} + \varepsilon_0 \ \cfrac{\partial\mathbf{E}}{\partial t}\right)
 $$
 
 ---
@@ -232,25 +228,19 @@ $$
 ---
 
 $$
-\begin{array}{}
-	\displaystyle
-	\oiint_{\partial\Omega}\mathbf{E} \cdot \mathrm{d} \mathbf{B} = \cfrac{1}{\varepsilon_0} \iiint_\Omega\rho	\mathrm{d}V
-	&& \mathrm{Gauss\ law}
-	\\
-	\displaystyle
-	\oiint_{\partial\Omega}\mathbf{B} \cdot \mathrm{d} \mathbf{S} = 0
-	&& \mathrm{Gauss\ law\ for\ magnetism}
-	\\
-	\displaystyle
-	{\bigcirc\kern{-11.7pt}\int}_{\partial\Sigma}\mathbf{E} \cdot \mathrm{d} \boldsymbol{\ell} = 
+\displaystyle
+\oiint_{\partial\Omega}\mathbf{E} \cdot \mathrm{d} \mathbf{B} = \cfrac{1}{\varepsilon_0} \iiint_\Omega\rho\mathrm{d}V
+\\
+\displaystyle
+\oiint_{\partial\Omega}\mathbf{B} \cdot \mathrm{d} \mathbf{S} = 0
+\\
+\displaystyle
+{\bigcirc\kern{-11.7pt}\int}_{\partial\Sigma}\mathbf{E} \cdot \mathrm{d} \boldsymbol{\ell} = 
 	-\cfrac{\mathrm{d}}{\mathrm{d}t} \iint_\Sigma \mathbf{B} \cdot \mathrm{d} \mathbf{S}
-	&& \mathrm{Faraday\ law\ of\ induction}
-	\\
-	\displaystyle
-	{\bigcirc\kern{-11.7pt}\int}_{\partial\Sigma}\mathbf{B} \cdot \mathrm{d} \boldsymbol{\ell} = 
-	\mu_0 \left(\iint_\Sigma \mathbf{J} \cdot \mathrm{d} \mathbf{S} + \varepsilon_0 \ \cfrac{\rm d}{\mathrm{d}t}\iint_\Sigma \mathbf{E} \cdot \mathrm{d} \mathbf{S}\right)
-	&& \mathrm{Amp\grave{e}re\ circuital\ law}
-\end{array}
+\\
+\displaystyle
+{\bigcirc\kern{-11.7pt}\int}_{\partial\Sigma}\mathbf{B} \cdot \mathrm{d} \boldsymbol{\ell} = 
+\mu_0 \left(\iint_\Sigma \mathbf{J} \cdot \mathrm{d} \mathbf{S} + \varepsilon_0 \ \cfrac{\rm d}{\mathrm{d}t}\iint_\Sigma \mathbf{E} \cdot \mathrm{d} \mathbf{S}\right)
 $$
 
 ---
