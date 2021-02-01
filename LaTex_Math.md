@@ -189,7 +189,7 @@
 ---
 
 $$
-\begin{align}
+
 	\nabla \cdot \mathbf{E} &= \cfrac{\rho}{\varepsilon_0} && \mathrm{Gauss\ law}
 	\\
 	\nabla \cdot \mathbf{B} &= 0 && \mathrm{Gauss\ law\ for\ magnetism}
@@ -200,7 +200,7 @@ $$
 	\nabla \times \mathbf{B}&= 
 	\mu_0 \left(\mathbf{J} + \varepsilon_0 \ \cfrac{\partial\mathbf{E}}{\partial t}\right)
 	&& \mathrm{Amp\grave{e}re\ circuital\ law}
-\end{align}
+
 $$
 
 ---
