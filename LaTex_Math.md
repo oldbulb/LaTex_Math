@@ -189,8 +189,8 @@
 ---
 
 $$
-
-	\nabla \cdot \mathbf{E} &= \cfrac{\rho}{\varepsilon_0} && \mathrm{Gauss\ law}
+\nabla \cdot \mathbf{E} &= \cfrac{\rho}{\varepsilon_0} && \mathrm{Gauss\ law}
+$$
 	\\
 	\nabla \cdot \mathbf{B} &= 0 && \mathrm{Gauss\ law\ for\ magnetism}
 	\\
