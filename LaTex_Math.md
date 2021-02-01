@@ -77,10 +77,10 @@
 | --------------- | --------------- | ---- | --------------- | --------------- | ---- | --------------- | ---------------- | ---- | --------------- | ---------------- |
 | `(`             | $$($$           |      | `)`             | $$)$$           |      | `\uparrow`      | $$\uparrow$$     |      | `\Uparrow`      | $$\Uparrow$$     |
 | `\[`    | $$\[$$ |      | `\]`     | $$\]$$   |      | `\downarrow`    | $$\downarrow$$   |      | `\Downarrow`    | $$\Downarrow$$   |
-| `\{, \lbrace`   | $$\{, \lbrace$$ |      | `\}, \rbrace`   | $$\}, \rbrace$$ |      | `\updownarrow`  | $$\updownarrow$$ |      | `\Updownarrow`  | $$\Updownarrow$$ |
+| `\{`   | $$\{$$ |      | `\}`   | $$\}$$ |      | `\updownarrow`  | $$\updownarrow$$ |      | `\Updownarrow`  | $$\Updownarrow$$ |
 | `\langle`       | $$\langle$$     |      | `\rangle`       | $$\rangle$$     |      | `\|, \vert`     | $$\|, \vert$$    |      | `\\|, \Vert`    | $$\\|, \Vert$$   |
 | `\lfloor`       | $$\lfloor$$     |      | `\rfloor`       | $$\rfloor$$     |      | `\lceil`        | $$\lceil$$       |      | `\rceil`        | $$\rceil$$       |
-| `/`             | $$/$$           |      | `\backslash`    | $$\backslash$$  |      | `\%`            | $$\%$$           |      | `\&`            | $$\&$$           |
+| `/`             | $$/$$           |      | `\backslash`    | $$\backslash$$  |      | `\%`            | $$\%$$           |      |            |          |
 
 
 
